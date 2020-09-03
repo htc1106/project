@@ -1,34 +1,331 @@
 <style>
+    body {
+      font-family: Arial, sans-serif;
 
-    #ball {
-      width: 100px;
-      height: 100px;
-      margin: 50px auto;
-      position: relative;
-      border-radius: 50%;
-      background: linear-gradient(
-        35deg,
-        #ccffff,
-        #ffcccc
-      );
-      animation-name: bounce;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
     }
+    body {
+      display: flex;
+      flex-direction: column;
   
-    @keyframes bounce{
-      0% {
-        top: 0px;
-      }
-      50% {
-        top: 249px;
-        width: 130px;
-        height: 70px;
-      }
-      100% {
-        top: 0px;
-      }
+    }
+    img {
+  max-width: 250px;
+  height: auto;
+}
+
+    body .profile-thumbnail {
+      width: 50px;
+      height: 50px;
+      border-radius: 4px;
+    }
+    body .profile-name {
+      display: flex;
+      margin-left: 10px;
+    }
+    body .follow-btn {
+      display: flex;
+      margin: 0 0 0 auto;
+    }
+    body .follow-btn button {
+      border: 0;
+      border-radius: 3px;
+      padding: 5px;
+    }
+    body h3, body h4 {
+      display: flex;
+      margin: 0;
+    }
+    #inner p {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    #inner hr {
+      margin: 20px 0;
+      border-style: solid;
+      opacity: 0.1;
+    }
+    body {
+      display: flex;
+  
+    }
+    body .stats {
+      display: flex;
+      font-size: 15px;
+    }
+    body .stats strong {
+      font-size: 18px;
+    }
+    body .stats .likes {
+      margin-left: 10px;
+    }
+    body .cta {
+      margin-left: auto;
+    }
+    body .cta button {
+      border: 0;
+      background: transparent;
     }
   </style>
-  <div id="ball"></div>
+  <body>
+
+    <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+    <div class="profile-name">
+      <h3>Quincy Larson   </h3> 
+
+      <h4>@ossia</h4>
+    </div>
+    <div class="follow-btn">
+    </div>
+  
+  <div id="inner">
+    <p>We have a sales meeting with KennexisIP Friday morning.</p>
+    
+    <span class="date">1:32 PM - 12 Aug 2020</span>
+    <hr>
+ 
+  </div>
+
+    <div class="stats">
+      <div class="Retweets">
+        <strong>6</strong> Comment
+      </div>
+      <div class="likes">
+        <strong>16</strong> Upvote
+      </div>
+    </div>
+    <div class="cta">
+      <button class="share-btn">Comment</button>
+      <button class="retweet-btn">Upvote</button>
+      <button class="like-btn">Set Reminder</button>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <img src="https://mlk5vm21jtgn.i.optimole.com/uMYairY.FNSH~38b5/w:auto/h:auto/q:75/https://artofheadshots.com/wp-content/uploads/2013/03/Meryl_Streep_by_Jack_Mitchell.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+    <div class="profile-name">
+      <h3>Kathy Smith</h3>
+      <h4>@imKS</h4>
+    </div>
+    <div class="follow-btn">
+    </div>
+  
+  <div id="inner">
+    <p>Great Job! </p>
+    <span class="date">1:34 PM - 12 Aug 2020</span>
+    <hr>
+  </div>
+
+
+    <img src="https://hips.hearstapps.com/mac.h-cdn.co/assets/17/31/edward-norton-435-8.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+    <div class="profile-name">
+      <h3>Jimmy Chow</h3>
+      <h4>@JChow</h4>
+    </div>
+    <div class="follow-btn">
+    </div>
+  
+  <div id="inner">
+    <img src="https://i.imgflip.com/4dqnq6.jpg" title="made at imgflip.com"/>   
+    <hr>
+    <span class="date">1:35 PM - 12 Aug 2020</span>
+    <hr>
+  </div>
+
+    <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+    <div class="profile-name">
+      <h3>Quincy Larson</h3>
+      <h4>@ossia</h4>
+    </div>
+    <div class="follow-btn">
+    </div>
+  
+  <div id="inner">
+    <p>@JChow I do! My sister works for their fibreglass supplier</p>
+    <span class="date">2:32 PM - 12 Aug 2020</span>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+  </div>
+
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+
+
+    
+    <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+    <div class="profile-name">
+      <h3>Quincy Larson</h3>
+      <h4>@ossia</h4>
+    </div>
+    <div class="follow-btn">
+    </div>
+  
+  <div id="inner">
+    <p>@ossia added Calendar Event "Meeting with KennexisIP 17 Aug 9:30AM"</p>
+    <img src="https://lettoknow.com/wp-content/uploads/2019/06/google-calendar.png" alt="">
+    <hr>  
+    <span class="date">9:30 AM - 13 Aug 2020</span>
+    <hr>
+ 
+  </div>
+
+    <div class="stats">
+      <div class="Retweets">
+        <strong>3</strong> Comment
+      </div>
+      <div class="likes">
+        <strong>6</strong> Attending
+      </div>
+    </div>
+    <div class="cta">
+      <button class="share-btn">Comment</button>
+      <button class="retweet-btn">Accept</button>
+      <button class="like-btn">Decline</button>
+    </div>
+
+    <hr>
+
+    <img src="https://4.bp.blogspot.com/-Kh_kgZ0mAKA/TmAa_5rZaWI/AAAAAAAAApw/-kfrarXOMGg/s1600/natalie_portman+Head+Shot.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+    <div class="profile-name">
+      <h3>Julia Adams</h3>
+      <h4>@JAftw</h4>
+    </div>
+    <div class="follow-btn">
+
+    </div>
+  
+  <div id="inner">
+    <p>Sorry boss, I already have an pitch with Tally Inc Friday </p>
+    <h4>MEETING DECLINED</h4>
+
+
+   <hr>
+    <span class="date">1:35 PM - 13 Aug 2020</span>
+    <hr>
+  </div>
+ <hr> 
+
+
+
+  <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+  <div class="profile-name">
+    <h3>Quincy Larson</h3>
+    <h4>@ossia</h4>
+  </div>
+  <div class="follow-btn">
+  </div>
+
+<div id="inner">
+  <p>I will prepare notes and send it to everyone</p>
+  <span class="date">2:44 PM - 13 Aug 2020</span>
+  <hr>
+</div>
+
+<img src="https://hips.hearstapps.com/mac.h-cdn.co/assets/17/31/edward-norton-435-8.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+<div class="profile-name">
+  <h3>Jimmy Chow</h3>
+  <h4>@JChow</h4>
+</div>
+<div class="follow-btn">
+</div>
+
+<div id="inner">
+<p>I can make the PPT by this evening</p><hr>
+<span class="date">3:35 PM - 13 Aug 2020</span>
+<hr>
+<hr>
+<hr>
+<hr>
+
+</div>
+
+
+    
+<img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+<div class="profile-name">
+  <h3>Quincy Larson</h3>
+  <h4>@ossia</h4>
+</div>
+<div class="follow-btn">
+</div>
+
+<div id="inner">
+<p>@ossia added Mandatory Reading Notes "Prep for KennexisIP meeting"</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Paper-notes.svg/512px-Paper-notes.svg.png" alt="">
+<hr>  
+<span class="date">9:30 PM - 14 Aug 2020</span>
+<hr>
+ 
+</div>
+
+<div class="stats">
+  <div class="Retweets">
+    <strong>5</strong> Downloads
+  </div>
+  <div class="likes">
+    <strong>4</strong> Completion
+  </div>
+</div>
+<div class="cta">
+  <button class="share-btn">Comment</button>
+  <button class="retweet-btn">Download</button>
+  <button class="like-btn">Complete</button>
+</div>
+<hr>
+<hr>
+<hr>
+<hr>
+
+
+    
+<img src="https://hips.hearstapps.com/mac.h-cdn.co/assets/17/31/edward-norton-435-8.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+<div class="profile-name">
+  <h3>Jimmy Chow</h3>
+  <h4>@JChow</h4>
+</div>
+<div class="follow-btn">
+</div>
+
+<div id="inner">
+<p>@JChow added Optional Reading Notes "PPT for KennexisIP meeting"</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Paper-notes.svg/512px-Paper-notes.svg.png" alt="">
+<hr>  
+<span class="date">9:30 PM - 14 Aug 2020</span>
+<hr>
+
+</div>
+
+<div class="stats">
+  <div class="Retweets">
+    <strong>3</strong> Downloads
+  </div>
+
+</div>
+<div class="cta">
+  <button class="share-btn">Comment</button>
+  <button class="retweet-btn">Download</button>
+</div>
+
+<img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+<div class="profile-name">
+  <h3>Quincy Larson</h3>
+  <h4>@ossia</h4>
+</div>
+<div class="follow-btn">
+</div>
+
+<div id="inner">
+<p>Nicely done! Can you send a copy to sales? </p>
+<span class="date">2:44 PM - 13 Aug 2020</span>
+<hr>
+<hr>
+<hr>
+<hr>
+</div>
+</body>
   
